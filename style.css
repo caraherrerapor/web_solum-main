@@ -892,11 +892,17 @@ h6 {
 
 
 
+.video-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
 .video-container {
   position: relative;
   width: 100%;
   max-width: 920px; /* Ajusta el tamaño máximo del video */
-  margin: 0 auto; /* Centra el contenedor horizontalmente */
   padding-top: 56.25%; /* Relación de aspecto 16:9 (640/920 * 100) */
   overflow: hidden;
 }
@@ -909,6 +915,7 @@ h6 {
   height: 100%;
   border: 0;
 }
+
 
 
 
