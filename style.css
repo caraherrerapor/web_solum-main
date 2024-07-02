@@ -775,6 +775,98 @@ h6 {
   padding: 5px 0;
   width: 100%;
 }
+/* modifica el tamaño de los componentes acordeon */
+.panelHijo_gestion_humana{
+  padding: 5px 0;
+  width: 90%;
+}
+.panelHijo_coordinador_hse{
+  padding: 5px 0;
+  width: 90%;
+
+}
+.panelHijo_siso{
+  padding: 5px 0;
+  width: 80%;
+}
+.panelHijo_supervisor_sst{
+  padding: 5px 0;
+  width: 80%;
+
+}
+.panelHijo_servicios_generales{
+  padding: 5px 0;
+  width: 70%;
+}
+.panelHijo_direccion_tecnica{
+  padding: 5px 0;
+  width: 100%;
+}
+.panelHijo_analista_de_ofertas{
+  padding: 5px 0;
+  width: 90%;
+}
+.panelHijo_coord_de_operaciones{
+  padding: 5px 0;
+  width: 90%;
+}
+.panelHijo_jefe_laboratorio{
+  padding: 5px 0;
+  width: 90%;
+}
+.panelHijo_director_proyecto{
+  padding: 5px 0;
+  width: 80%;
+}
+.panelHijo_auxiliar_logistica{
+  padding: 5px 0;
+  width: 80%;
+}
+.panelHijo_personal_laboratorio{
+  padding: 5px 0;
+  width: 80%;
+}
+.panelHijo_ingeniero_residente{
+  padding: 5px 0;
+  width: 70%;
+}
+.panelHijo_supervisor_operaciones{
+  padding: 5px 0;
+  width: 60%;
+}
+.panelHijo_personal_de_campo{
+  padding: 5px 0;
+  width: 50%;
+}
+.panelHijo_direccion_comercial{
+  padding: 5px 0;
+  width: 100%;
+}
+.panelHijo_inteligencia_comercial{
+  padding: 5px 0;
+  width: 90%;
+}
+.panelHijo_equipo_comercial{
+  padding: 5px 0;
+  width: 80%;
+}
+.panelHijo_comentar{
+  padding: 5px 0;
+  width: 90%;
+}
+.panelHijo_analista_contable1{
+  padding: 5px 0;
+  width: 80%;
+}
+.panelHijo_analista_contable2{
+  padding: 5px 0;
+  width: 80%;
+}
+.panelHijo_administrador_de_obra{
+  padding: 5px 0;
+  width: 70%;
+}
+/* fin modificacion tamaño componentes acordeon */
 
 .panel {
   padding: 0 18px;
@@ -791,13 +883,10 @@ h6 {
 .cardcenter {
   padding: 5px;
 }
-
+ /* modifica tamaño imagen */
 .card {
-  max-width: 800px; 
-  border-radius: 0.5rem;
-  background-color: #fff;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.586);
-  overflow: hidden;
+  border: none;
+  width: 45%;
 }
 
 .card a {
@@ -809,20 +898,22 @@ h6 {
 }
 
 .content-detailshijos {
-  display: inline;
+  display: flex;
   width: 90%;
+  align-items:end ;
+  flex-direction: column;
 }
 
 .content-hijos {
   display: flex;
-  justify-content: center;
-  align-self: center;
+  justify-content: right;
+  align-items:end ;
 }
 
 .image {
   object-fit: contain;
-  width: 100%;
-  height: 200px;
+  
+  height: auto;
   overflow: hidden;
 }
 
